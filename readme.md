@@ -63,7 +63,7 @@ flowchart LR
     Worker -->|Result| Redis
     FastAPI -->|Fetch Result| Redis
     FastAPI -->|HTTP Response| User
-```
+``` 
 
 ## ⚙️ Setup Instructions
 ### 1️⃣ Clone the repository
