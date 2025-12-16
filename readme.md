@@ -39,8 +39,7 @@ distributed-rag-system/
 │   └── worker.py           # RAG worker (retrieval + generation)
 ├── server.py               # FastAPI app
 ├── main.py                 # Entry point
-├── index.py                # PDF ingestion & vector indexing
-├── retrieve.py             # Local retrieval testing
+├── docker-compose.yml      
 ├── requirements.txt
 ├── .env                    # API keys (ignored)
 ├── README.md
